@@ -3,7 +3,7 @@ package de.telran.lesson_2.abstraction.homework_240824;
 public class MainTranslator {
     public static void main(String[] args) {
 
-        EnglishRussian englishRussian = new EnglishRussian("Иван", 30, "мужской");
+        EnglishRussian englishRussian = new EnglishRussian("Иван", 35, "мужской");
         englishRussian.translate();
         englishRussian.cost();
         System.out.println();

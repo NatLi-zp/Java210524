@@ -2,6 +2,7 @@ package de.telran.lesson_2.abstraction;
 
 public class MainPrinter {
     public static void main(String[] args) {
+
         LaserPrinter laserPrinter= new LaserPrinter("HP", "LJ100", 2005, 1000);
         laserPrinter.repair();
         laserPrinter.service();

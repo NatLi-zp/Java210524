@@ -8,7 +8,7 @@ public class RussianGerman extends Translator {
 
     @Override
     public void translate() {
-        System.out.println(name + " может переводить с русского на немецкий");
+        System.out.println(name + " может переводить с русского на немецкий язык");
     }
 
     @Override

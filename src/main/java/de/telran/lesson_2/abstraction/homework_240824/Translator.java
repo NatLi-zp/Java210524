@@ -10,6 +10,7 @@ abstract public class Translator {
         this.age = age;
         this.gender = gender;
     }
+
     abstract public void translate();
 
     abstract public void cost();
