@@ -20,11 +20,11 @@ public class SimpleExtends {
         horse3.transports();
         System.out.println();
 
-        Pegasus pegasus1 = new Pegasus("Сема", "черный", 20, 2);
-        pegasus1.run();
-        pegasus1.transports();
-        pegasus1.fly();
-        System.out.println();
+//        Pegasus pegasus1 = new Pegasus("Сема", "черный", 20, 2);
+//        pegasus1.run();
+//        pegasus1.transports();
+//        pegasus1.fly();
+//        System.out.println();
 
         PegasusExt pegasusExt = new PegasusExt("Пинки", "розовый", 10, 2);
         pegasusExt.fly();

@@ -11,4 +11,10 @@ public class PegasusExt extends Horse{ //наследование
     public void fly() {
         System.out.println("Летит " + name + " цвет " + color+ " с груз весом " + weight);
     }
+
+    @Override
+    public void transports() {
+        System.out.println(name + " переносил груз весом "+ weight + " по воздуху с помощью " + countWings+ " крыльев");
+      //  super.transports();
+    }
 }
