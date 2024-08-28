@@ -13,7 +13,7 @@ public class LaserPrinter extends Printer {
     }
 
     @Override
-    void gasstation() {
+    void refill() {
         System.out.println(name + " заправляется заменой лазерного картриджа");
     }
 

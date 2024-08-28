@@ -44,5 +44,7 @@ public class SimpleExtends {
         unicornRace.butt();
         unicornRace.transportPassangers();
         System.out.println();
+
+        System.out.println(+Horse.count+" общее кол -во лошадей");
     }
 }
