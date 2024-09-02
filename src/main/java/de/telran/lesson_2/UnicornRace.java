@@ -11,4 +11,10 @@ public class UnicornRace extends UnicornExt{
     public void transportPassangers(){
        System.out.println(name+" может возить пассажиров "+ countPassengers);
     }
+
+    public static class UniPegasus extends PegasusExt {
+        public UniPegasus(String name, String color, int weight, int countWings) {
+            super(name, color, weight, countWings);
+        }
+    }
 }

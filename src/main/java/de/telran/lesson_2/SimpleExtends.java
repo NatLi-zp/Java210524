@@ -46,5 +46,9 @@ public class SimpleExtends {
         System.out.println();
 
         System.out.println(+Horse.count+" общее кол -во лошадей");
+
+        UniPegasus uniPegasus = new UniPegasus("Uni", "black", 10, 4, 1);
+        uniPegasus.fly();
+        uniPegasus.unicorn.butt();
     }
 }
