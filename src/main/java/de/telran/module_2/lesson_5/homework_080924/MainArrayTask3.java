@@ -1,7 +1,7 @@
 //3**. Создать трехмерный массив чисел размером MхNхZ и заполните его сгенерируемыми положительными значениями:
 //        выполните тот же набор операций, что и в задание выше
 
-package de.telran.module_2.lesson_5.homework_060924.task1;
+package de.telran.module_2.lesson_5.homework_080924;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -7,7 +7,7 @@
 //        -* найти второй по величине элемент.
 //        -* замените все дубликаты элементов на 0.
 
-package de.telran.module_2.lesson_5.homework_060924.task1;
+package de.telran.module_2.lesson_5.homework_080924;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
