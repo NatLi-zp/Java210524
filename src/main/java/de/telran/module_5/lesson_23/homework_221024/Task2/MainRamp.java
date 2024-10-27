@@ -29,12 +29,12 @@ public class MainRamp {
         new Thread(unloader).start();
         new Thread(loader1).start();
         new Thread(loader2).start();
-        new Thread(loader3).start();
+        //new Thread(loader3).start();
 
         new Thread(unloader).join();
         new Thread(loader1).join();
         new Thread(loader2).join();
-        new Thread(loader3).join();
+       // new Thread(loader3).join();
 
         Thread.sleep(1000);
         System.out.println("Все ящики разгружены!");

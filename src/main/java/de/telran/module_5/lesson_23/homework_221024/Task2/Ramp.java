@@ -16,7 +16,7 @@ public class Ramp {
 
         System.out.println(name + " - погрузчик взял 1 ящик");
         System.out.println("Ящиков на рампе: " + product);
-        notify();
+        notifyAll();
     }
 
 
